@@ -1,0 +1,25 @@
+* {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.block {
+  margin: 10px;
+  max-width: 700px;
+  min-width: 400px;
+  margin: auto;
+}
+
+#entered_numbers {
+  border: 0px;
+}
+
+button,
+#number {
+  border-radius: 7px;
+}

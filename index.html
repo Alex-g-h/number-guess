@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number guess game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h2>Игра угадай число</h2>
+  </header>
+
+  <div class="block">
+    <p>Задание: Угадайте число от <span id="span_number_from">1</span> до
+      <span id="span_number_to">100</span>.
+    </p>
+    <p>Условие: У вас <span id="span_try_count">10</span> попыток.
+      После каждой попытки будет указано больше, меньше или совпало
+      введенное число с загаданным.</p>
+  </div>
+
+  <div class="block">
+    <label for="number">Введите число:</label>
+    <input type="number" name="number" id="number" min="1" max="100">
+    <button type="button" id="b_check_number" disabled>Проверить число</button>
+  </div>
+
+  <div class="block">
+    <p id="entered_numbers">Введенные числа:</p>
+  </div>
+
+  <div class="block">
+    <p id="result">Результат:</p>
+  </div>
+
+  <div class="block">
+    <button type="button" id="b_start" enabled>Начать игру</button>
+  </div>
+</body>
+
+</html>
